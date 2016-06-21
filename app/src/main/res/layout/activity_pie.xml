@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.deepblue.customviewdemo.MainActivity">
+    tools:context="com.deepblue.customviewdemo.Activity.Draw.PieActivity">
 
-
+    <com.deepblue.customviewdemo.CustomView.DrawView.PieView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </RelativeLayout>

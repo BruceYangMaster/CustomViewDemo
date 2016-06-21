@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.Draw.DrawCommonActivity"></activity>
+        <activity android:name=".Activity.Draw.DrawCommonActivity" />
+        <activity android:name=".Activity.Draw.PieActivity"></activity>
     </application>
 
 </manifest>

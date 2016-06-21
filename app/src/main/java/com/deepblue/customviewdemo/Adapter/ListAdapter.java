@@ -13,28 +13,32 @@ import java.util.ArrayList;
  * Created by Administrator on 2016/6/21 0021.
  */
 public class ListAdapter extends BaseAdapter {
+    private ArrayList<ListModel> mArrayList;
+    private Context context;
 
     public ListAdapter(ArrayList<ListModel> mArrayList, Context context) {
-
+        this.mArrayList = mArrayList;
+        this.context = context;
     }
 
     @Override
     public int getCount() {
-        return 0;
+        return mArrayList.size();
     }
 
     @Override
     public Object getItem(int position) {
-        return null;
+        return mArrayList.get(position);
     }
 
     @Override
     public long getItemId(int position) {
-        return 0;
+        return position;
     }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
+
         return null;
     }
 }
